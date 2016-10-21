@@ -1,0 +1,14 @@
+.header-block {
+	background-image: url("images/rowbots-bg.png");
+
+	&--neon {
+		background-image: url("images/rowbots-neon.png");
+		background-size: contain;
+	}
+
+	&--image {
+		height: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: #001324; }
+
+body, a {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff; }
+
+p {
+  font-size: 1.5em; }
+
+a:hover {
+  text-decoration: none; }
+
+.hidden-sm-up {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .hidden-sm-up {
+    display: block; }
+
+  .hidden-sm-down {
+    display: none; } }
+.header-block {
+  background-image: url("images/rowbots-bg.png"); }
+  .header-block--neon {
+    background-image: url("images/rowbots-neon.png");
+    background-size: contain; }
+  .header-block--image {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+.content-block {
+  background-color: #006982; }
+  .content-block--title {
+    margin: 40px 0;
+    text-align: center; }
+  .content-block--project {
+    margin-bottom: 50px; }
+    .content-block--project img {
+      width: 100%; }
+
+.footer-block {
+  background-image: url("images/rowbots-bg.png");
+  padding: 50px 0; }
+  .footer-block--text {
+    text-align: center; }
+    .footer-block--text span {
+      color: #006982; }
+  .footer-block--text__copyright {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

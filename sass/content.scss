@@ -1,0 +1,16 @@
+.content-block {
+	background-color: #006982;
+
+	&--title {
+		margin: 40px 0;
+		text-align: center;
+	}
+
+	&--project {
+		margin-bottom: 50px;
+
+		img {
+			width: 100%;
+		}
+	}
+}

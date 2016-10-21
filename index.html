@@ -12,13 +12,7 @@
 
 	<title>Rowbots | Game Dev & Technology</title>
 
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
-
-	<!-- link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/img/logo-favicon.ico" -->
+	<link rel="icon" type="image/x-icon" href="images/rowbots-favicon.ico">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -28,14 +22,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	
+
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<h1 class="col-sm-6">Teste</h1>
-			<p class="col-sm-6">Teste de parágrafo.</p>
+	<header class="header-block">
+		<div class="container">
+			<div class="header-block--neon row">
+				<img class="header-block--image col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3" src="images/rowbots_logo.png">
+				<img class="header-block--image col-sm-6 col-sm-offset-3 col-xs-12" src="images/rowbots_everybody.png">
+			</div>
 		</div>
-	</div>
+	</header>
+
+	<section class="content-block">
+		<div class="container">
+			<h1 class="col-sm-12 content-block--title">Nossos Projetos</h1>
+			<a href="http://dedig.com.br" target="_blank">
+				<div class="content-block--project">
+					<img src="images/Portfolio-Dedig.jpg">
+				</div>
+			</a>
+			<div class="content-block--project">
+				<img src="images/Portfolio-Colecao.jpg">
+			</div>
+			<a href="http://globalgamejam.org/2016/games/totem" target="_blank">
+				<div class="content-block--project">
+					<img src="images/Portfolio-Totem.jpg">
+				</div>
+			</a>
+		</div>
+	</section>
+
+	<footer class="footer-block">
+		<div class="container">
+			<a href="tel:+551135653940" class="col-xs-12 hidden-sm-up">
+				<p class="footer-block--text"><span>Telefone: </span>+55 11 3565 3940</p>
+			</a>
+			<a href="mailto:contato@dedig.com.br" class="col-xs-12 hidden-sm-up">
+				<p class="footer-block--text"><span>E-mail: </span>contato@dedig.com.br</p>
+			</a>
+			<div class="col-xs-12 hidden-sm-down">
+				<p class="footer-block--text">
+				<a href="tel:+551135653940">
+					<span>Telefone: </span>+55 11 3565 3940</a> | <a href="mailto:contato@dedig.com.br"><span>E-mail: </span>contato@dedig.com.br</a></p>
+			</div>
+			<div class="col-xs-12">
+				<p class="footer-block--text__copyright">Rowbots © 2016 - Todos os direitos reservados</p>
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>

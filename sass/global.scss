@@ -1,0 +1,30 @@
+body {
+	background-color: #001324;
+}
+
+body, a {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	color: #fff;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.hidden-sm-up {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.hidden-sm-up {
+		display: block;
+	}
+
+	.hidden-sm-down {
+		display: none;
+	}
+}
